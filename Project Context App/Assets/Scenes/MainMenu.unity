@@ -134,9 +134,8 @@ GameObject:
   - component: {fileID: 285854457}
   - component: {fileID: 285854456}
   - component: {fileID: 285854455}
-  - component: {fileID: 285854459}
   m_Layer: 5
-  m_Name: EXIT
+  m_Name: BTN exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -171,7 +170,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 285854453}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6f4240a1a945f54bbbcfc2e0ce1306c, type: 3}
+  m_Script: {fileID: 11500000, guid: eaeecdcab411d834ca153b8be7a3d1a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &285854456
@@ -217,7 +216,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 285854459}
+      - m_Target: {fileID: 285854455}
         m_MethodName: Quit
         m_Mode: 1
         m_Arguments:
@@ -264,18 +263,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285854453}
   m_CullTransparentMesh: 0
---- !u!114 &285854459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285854453}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eaeecdcab411d834ca153b8be7a3d1a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &320502846
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,7 +614,7 @@ GameObject:
   - component: {fileID: 1678026782}
   - component: {fileID: 1678026781}
   m_Layer: 5
-  m_Name: Title
+  m_Name: TXT title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -704,7 +691,7 @@ GameObject:
   - component: {fileID: 1729146240}
   - component: {fileID: 1729146239}
   m_Layer: 5
-  m_Name: Template
+  m_Name: IMG placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -845,7 +832,7 @@ GameObject:
   - component: {fileID: 1742435184}
   - component: {fileID: 1742435187}
   m_Layer: 5
-  m_Name: START
+  m_Name: BTN start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -915,7 +902,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1742435187}
-        m_MethodName: GoToNextScene
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -970,6 +957,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1742435182}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6f4240a1a945f54bbbcfc2e0ce1306c, type: 3}
+  m_Script: {fileID: 11500000, guid: efc2ab4194e468f4bb69a96528be4dc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

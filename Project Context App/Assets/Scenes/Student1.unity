@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 26318215}
   - component: {fileID: 26318214}
   m_Layer: 5
-  m_Name: Hair2
+  m_Name: IMG hair color 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -352,7 +352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 136248248}
   m_Layer: 5
-  m_Name: Clothes Buttons
+  m_Name: FOLDER clothes buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -392,7 +392,7 @@ GameObject:
   - component: {fileID: 144121433}
   - component: {fileID: 144121432}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TXT continue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -725,7 +725,7 @@ GameObject:
   - component: {fileID: 244812875}
   - component: {fileID: 244812874}
   m_Layer: 5
-  m_Name: Character View
+  m_Name: IMG character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1137,7 +1137,7 @@ GameObject:
   - component: {fileID: 375321406}
   - component: {fileID: 375321405}
   m_Layer: 5
-  m_Name: 'TXT: Clothes'
+  m_Name: TXT clothes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1214,7 +1214,7 @@ GameObject:
   - component: {fileID: 392338195}
   - component: {fileID: 392338194}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TXT go back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1417,7 +1417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 457020850}
   m_Layer: 5
-  m_Name: Skin Buttons
+  m_Name: FOLDER skin buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1717,7 +1717,7 @@ GameObject:
   - component: {fileID: 560496258}
   - component: {fileID: 560496257}
   m_Layer: 5
-  m_Name: Character
+  m_Name: IMG character lines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1919,7 +1919,7 @@ GameObject:
   - component: {fileID: 580608274}
   - component: {fileID: 580608273}
   m_Layer: 5
-  m_Name: WAIT! GO BACK
+  m_Name: BTN go back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2360,7 +2360,7 @@ GameObject:
   - component: {fileID: 619635401}
   - component: {fileID: 619635404}
   m_Layer: 5
-  m_Name: CONTINUE
+  m_Name: BTN continue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2430,7 +2430,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 619635404}
-        m_MethodName: GoToNextScene
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3404,7 +3404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1060186756}
   m_Layer: 5
-  m_Name: CUSTOMIZATION
+  m_Name: FOLDER custom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3447,7 +3447,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1120497632}
   m_Layer: 5
-  m_Name: Hairstyle Buttons
+  m_Name: FOLDER hairstyle buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3564,7 +3564,7 @@ GameObject:
   - component: {fileID: 1204045148}
   - component: {fileID: 1204045147}
   m_Layer: 5
-  m_Name: DONE
+  m_Name: BTN done
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3950,7 +3950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1268712886}
   m_Layer: 5
-  m_Name: Hair2 Buttons
+  m_Name: FOLDER hair 2 buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3992,7 +3992,7 @@ GameObject:
   - component: {fileID: 1365836360}
   - component: {fileID: 1365836359}
   m_Layer: 5
-  m_Name: 'TXT: This Is You'
+  m_Name: TXT this is you
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4070,7 +4070,7 @@ GameObject:
   - component: {fileID: 1382234745}
   - component: {fileID: 1382234744}
   m_Layer: 5
-  m_Name: Clothes
+  m_Name: IMG clothes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4159,7 +4159,7 @@ GameObject:
   - component: {fileID: 1475930309}
   - component: {fileID: 1475930308}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TXT back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4237,7 +4237,7 @@ GameObject:
   - component: {fileID: 1490249210}
   - component: {fileID: 1490249209}
   m_Layer: 5
-  m_Name: Hairstyle
+  m_Name: IMG hairstyle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4455,7 +4455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1661212947}
   m_Layer: 5
-  m_Name: Hair1 Buttons
+  m_Name: FOLDER hair 1 buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4770,7 +4770,7 @@ GameObject:
   - component: {fileID: 1802052551}
   - component: {fileID: 1802052550}
   m_Layer: 5
-  m_Name: Hair1
+  m_Name: IMG hair color 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4862,7 +4862,7 @@ GameObject:
   - component: {fileID: 1844382654}
   - component: {fileID: 1844382653}
   m_Layer: 5
-  m_Name: Skin
+  m_Name: IMG skin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4954,7 +4954,7 @@ GameObject:
   - component: {fileID: 1914513900}
   - component: {fileID: 1914513899}
   m_Layer: 5
-  m_Name: 'TXT: Skin color'
+  m_Name: TXT skin color
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5162,7 +5162,7 @@ GameObject:
   - component: {fileID: 2006335145}
   - component: {fileID: 2006335148}
   m_Layer: 5
-  m_Name: BACK
+  m_Name: BTN back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5232,7 +5232,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2006335148}
-        m_MethodName: GoToNextScene
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5430,7 +5430,7 @@ GameObject:
   - component: {fileID: 2071959298}
   - component: {fileID: 2071959297}
   m_Layer: 5
-  m_Name: 'TXT: Hairstyle'
+  m_Name: TXT hairstyle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5507,7 +5507,7 @@ GameObject:
   - component: {fileID: 2123404845}
   - component: {fileID: 2123404844}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TXT done
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

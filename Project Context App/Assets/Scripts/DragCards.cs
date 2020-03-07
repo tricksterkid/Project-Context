@@ -17,6 +17,7 @@ public class DragCards : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
     public Slider Category3;
 
     public GameObject Card;
+    public GameObject Skill;
 
     // start drag
 
@@ -99,6 +100,7 @@ public class DragCards : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
             }
 
             NextCard.SetActive(true);
+            Skill.SetActive(true);
         }
         // if on no, disappear and reset color
         else if (currentMousePosition.x < 200 && currentMousePosition.y > 340)

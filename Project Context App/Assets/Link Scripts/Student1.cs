@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ToStudent1 : MonoBehaviour
+public class Student1 : MonoBehaviour
 {
 
-    public void GoToNextScene()
+    public void LoadScene()
     {
         SceneManager.LoadScene("Student1");
     }

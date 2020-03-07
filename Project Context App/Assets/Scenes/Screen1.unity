@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 236484301}
   - component: {fileID: 236484304}
   m_Layer: 5
-  m_Name: TEACHER
+  m_Name: BTN teacher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -205,7 +205,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 236484304}
-        m_MethodName: GoToNextScene
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -459,7 +459,7 @@ GameObject:
   - component: {fileID: 1060238762}
   - component: {fileID: 1060238761}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TXT student
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -536,7 +536,7 @@ GameObject:
   - component: {fileID: 1642619945}
   - component: {fileID: 1642619944}
   m_Layer: 5
-  m_Name: Hello!
+  m_Name: TXT welcome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -617,7 +617,7 @@ GameObject:
   - component: {fileID: 1660949240}
   - component: {fileID: 1660949243}
   m_Layer: 5
-  m_Name: STUDENT
+  m_Name: BTN student
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -687,7 +687,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1660949243}
-        m_MethodName: GoToNextScene
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -757,7 +757,7 @@ GameObject:
   - component: {fileID: 1739991883}
   - component: {fileID: 1739991882}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TXT teacher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

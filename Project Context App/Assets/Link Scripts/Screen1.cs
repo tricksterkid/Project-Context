@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class BackToScreen1 : MonoBehaviour
+public class Screen1 : MonoBehaviour
 {
 
-    public void GoToNextScene()
+    public void LoadScene()
     {
         SceneManager.LoadScene("Screen1");
     }
