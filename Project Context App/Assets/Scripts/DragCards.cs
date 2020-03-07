@@ -12,11 +12,16 @@ public class DragCards : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
     public Color Standard;
     public GameObject NextCard;
 
+    public Slider Category1;
+    public Slider Category2;
+    public Slider Category3;
+
+    public GameObject Card;
+
     // start drag
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("Begin Drag");
         lastMousePosition = eventData.position;
     }
 
@@ -42,7 +47,6 @@ public class DragCards : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
 
         if (currentMousePosition.x > 280 && currentMousePosition.y > 340)
         {
-            Debug.Log("Yes");
             Yes.GetComponent<Image>().color = YesColor;
         } else
         {
@@ -53,7 +57,6 @@ public class DragCards : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
 
         if (currentMousePosition.x < 200 && currentMousePosition.y > 340)
         {
-            Debug.Log("No");
             No.GetComponent<Image>().color = NoColor;
         }
         else
@@ -74,13 +77,27 @@ public class DragCards : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
         Vector3 oldPos = rect.position;
         rect.position = newPosition;
 
-        Debug.Log("End Drag");
-
         // if on yes, disappear and reset color
         if (currentMousePosition.x > 280 && currentMousePosition.y > 340)
         {
             gameObject.SetActive(false);
             Yes.GetComponent<Image>().color = Standard;
+            // look at tag and change corresponding slider value
+            if (Card.gameObject.tag == "Category1")
+            {
+                Category1.value++;
+            }
+
+            if (Card.gameObject.tag == "Category2")
+            {
+                Category2.value++;
+            }
+
+            if (Card.gameObject.tag == "Category3")
+            {
+                Category3.value++;
+            }
+
             NextCard.SetActive(true);
         }
         // if on no, disappear and reset color

@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Cards
+  - SwipedToYes
+  - SwipedToNo
+  - Category1
+  - Category2
+  - Category3
   layers:
   - Default
   - TransparentFX
