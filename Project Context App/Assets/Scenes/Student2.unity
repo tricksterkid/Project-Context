@@ -1172,7 +1172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 270646946}
   m_Layer: 5
-  m_Name: FOLDER Popup
+  m_Name: FOLDER popup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

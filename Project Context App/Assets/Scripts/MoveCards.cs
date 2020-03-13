@@ -48,7 +48,7 @@ public class MoveCards : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
         rect.position = newPosition;
 
         // if on yes, disappear
-        if (currentMousePosition.x > 280 && currentMousePosition.y > 340)
+        if (currentMousePosition.x > 270 && currentMousePosition.y > 340)
         {
             gameObject.SetActive(false);
             NextCard.SetActive(true);
@@ -56,7 +56,7 @@ public class MoveCards : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
             Skill.SetActive(true);
         }
         // if on no, disappear
-        else if (currentMousePosition.x < 200 && currentMousePosition.y > 340)
+        else if (currentMousePosition.x < 190 && currentMousePosition.y > 340)
         {
             gameObject.SetActive(false);
             NextCard.SetActive(true);
