@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class MoveCards : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
+    private int ScreenSize = Screen.width / 2;
     private Vector2 lastMousePosition;
     public GameObject NextCard;
     public Slider CorrectSlider;
@@ -48,7 +49,7 @@ public class MoveCards : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
         rect.position = newPosition;
 
         // if on yes, disappear
-        if (currentMousePosition.x > 270 && currentMousePosition.y > 340)
+        if (currentMousePosition.x > ScreenSize && currentMousePosition.y > 340)
         {
             gameObject.SetActive(false);
             NextCard.SetActive(true);
@@ -56,7 +57,7 @@ public class MoveCards : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
             Skill.SetActive(true);
         }
         // if on no, disappear
-        else if (currentMousePosition.x < 190 && currentMousePosition.y > 340)
+        else if (currentMousePosition.x < ScreenSize && currentMousePosition.y > 340)
         {
             gameObject.SetActive(false);
             NextCard.SetActive(true);
